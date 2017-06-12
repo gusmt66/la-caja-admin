@@ -1,0 +1,181 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/*colors*/
+$grey-dark:#202327;
+$grey-light:#5d636d;
+$blue-light:#4d90fe;
+$blue-dark:#357ae8;
+
+/*heights and widths*/
+body
+{
+  margin:0px!important;
+  font-family:Roboto;
+}
+
+html
+{
+  height: 100%; 
+}
+
+.wrapper
+{
+  width:100%;
+}
+
+.content
+{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
+}
+
+.clear
+{
+  clear:both;
+}
+
+label 
+{
+    padding-top: 15px!important;
+}
+
+p
+{
+  margin-left: 36%;
+  padding-top: 15px;
+}
+/*forms of users login and user register*/
+.form-add
+{
+  width:700px;
+  margin: auto;
+  form
+  {
+    width: 500px;
+    margin: auto;
+  } 
+}
+
+.form-container
+{
+  form
+  {
+    width: 240px;
+    margin: auto;
+  }
+  background-color: #ffffff;
+  h1
+  {
+    text-align: center;
+    font-weight: 100;
+    color: $grey-dark;
+    .fa
+    {
+      color: $grey-dark;
+    }
+  }
+
+  form
+  {
+
+    input
+    {
+      width: 100%;
+      height: 45px;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .input-submit
+    {
+      height: 40px;
+      background-color: $blue-light;
+      color: #fff;
+      width: 40%;
+      cursor: pointer;
+      margin: 0px 30%;
+      border: 0px;
+      text-shadow: 0 1px rgba(0,0,0,0.1); 
+      font-family: roboto;
+      font-size: 14px;
+    }
+
+    .input-submit:hover
+    {
+      border: 0px;
+      text-shadow: 0 1px rgba(0,0,0,0.3);
+      background-color: $blue-dark;
+    }
+  }
+}
+
+.form-add
+{
+  form
+  {
+    width: 240px;
+    margin: auto;
+  }
+  background-color: #ffffff;
+  h1
+  {
+    text-align: center;
+    font-weight: 100;
+    color: $grey-dark;
+    .fa
+    {
+      color: $grey-dark;
+    }
+  }
+
+  form
+  {
+
+    input
+    {
+      width: 100%;
+      height: 45px;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .input-submit
+    {
+      height: 40px;
+      background-color: $blue-light;
+      color: #fff;
+      width: 40%;
+      cursor: pointer;
+      margin: 0px 30%;
+      border: 0px;
+      text-shadow: 0 1px rgba(0,0,0,0.1); 
+      font-family: roboto;
+      font-size: 14px;
+    }
+
+    .input-submit:hover
+    {
+      border: 0px;
+      text-shadow: 0 1px rgba(0,0,0,0.3);
+      background-color: $blue-dark;
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .table-responsive{
+    border: 0px solid #fff;
+}
+}
+
